@@ -11,7 +11,7 @@ Each successive set of squares is drawn adject to the previous square's corners,
 
 ![Step one: center square](fibcarpet13/fibcarpet_13_4.png)
 
-This process is iterated until you reach a square of length 1, at which points you have run out of space to place any more squares.
+This process is iterated on each square with uncovered corners until you reach a square of length 1, at which points you have run out of space to place any more squares.
 
 In my figured that I could automate it. In my presentation of the idea I animated the process by which my code generated the carpets. The code is quick, dirty, WET, and slow. But it worked.
 
